@@ -1,14 +1,13 @@
 #include "aboutdialog.h"
 #include "ui_aboutdialog.h"
-#include<QPixmap>
+#include <QPixmap>
 
-AboutDialog::AboutDialog(QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::AboutDialog)
+AboutDialog::AboutDialog(QWidget *parent) : QDialog(parent),
+                                            ui(new Ui::AboutDialog)
 {
     ui->setupUi(this);
-    setWindowFlags(windowFlags()&~Qt::WindowContextHelpButtonHint);
-    ui->textLabel->setText("版本：1.0.0\n\n开发者：09023110-刘曾渭"
+    setWindowFlags(windowFlags() & ~Qt::WindowContextHelpButtonHint);
+    ui->textLabel->setText("版本：1.0.0\n\n开发者：WeiKnight"
                            "\n\n简介：\n“列车售票管理系统”"
                            "是一款基于 Qt 5.6.1 开源版开发的软件，\n旨在提高列车售票效率"
                            "\n\n本软件使用了 Qt 5.6.1 开源版，更多信息请访问 Qt官方网站。"
