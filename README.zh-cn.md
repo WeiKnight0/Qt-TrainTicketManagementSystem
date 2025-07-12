@@ -1,5 +1,6 @@
 # 列车购票管理系统 - 项目文档
-
+[**English**](README.md) | [简体中文](#)  
+*(English version is available [here](README.md).)*
 ## 项目概述
 本项目是一个基于Qt框架和SQLite/MySQL数据库的列车购票管理系统，实现了列车班次管理、乘客管理、购票退票、数据查询等核心功能。系统分为管理员和用户两种角色，提供完整的业务流程支持。
 

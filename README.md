@@ -1,5 +1,6 @@
 # Train Ticket Management System - Project Documentation
-
+[**简体中文**](README.zh-cn.md) | [English](#)   
+*(If you prefer Chinese, see [README.zh-cn.md](README.zh-CN.md).)*
 ## Project Overview
 This project is a train ticket management system based on the Qt framework and SQLite/MySQL databases. It implements core functions such as train schedule management, passenger management, ticket purchase and refund, and data query. The system has two roles: administrators and users, providing support for a complete business process.
 
