@@ -206,4 +206,4 @@ git clone https://github.com/WeiKnight0/Qt-TrainTicketManagementSystem.git
    - It is recommended to back up the database file regularly.
 
 ## License
-This project uses the MIT open-source license, allowing free use and modification, but the original author information must be retained.
+This project uses the GPL v3 and LGPL v3 open-source license, allowing free use and modification, but the original author information must be retained.
